@@ -1,18 +1,68 @@
+
+/* If the background is red something failed and the site might not display right */
 body {
     background-color: red;
 }
 
-@media screen and (min-width: 375px) and (min-height: 667px) {
-    body {  
-        background-color: aqua;
+/* These should capture all 16:9 resolutions, starting from 1024x576 to 3840 × 2160(4k) if anyone is using anything higher then 4k then well, idk*/
+/* Also note that these are not exact resolutions for example 720p is "1200x 600" this to give breathing room for browser elements
+   like the favorites, search bar and tabs which makes the page size/resolution not exact.*/
+/* As of now I've only set background collours for debug reasons*/
+
+
+
+/* "1024x576" If you are on desktop and this is your resolution, bro. */
+@media screen and (min-width: 990px) and (min-height: 540px) {
+    body {
+        background-color: rgb(61, 46, 46);
     }
 }
 
-@media screen and (min-width: 414px) and (min-height: 896px) {
-    body {  
-        background-color: blue;
+
+
+/* 720p, we all gotta start somewhere and this ain't too bad. You'll eventually get use to it */
+@media screen and (min-width: 1200px) and (min-height: 600px) {
+    body {
+        background-color: rgb(141, 0, 0);
+    }   
+}
+
+
+
+/* "1360p" as I call it, a fair bit better then 720p but not quite 1080p but it's the resolution I game at (due to weak hardware) */
+@media screen and (min-width: 1300px) and (min-height: 650px) {
+    body {
+        background-color: rgb(41, 0, 0);
     }
 }
 
-/*
-Do these for the background
+
+
+/* 1400x900, I never use this resolution but it's listed when I change res in Windows so ehhh*/
+@media screen and (min-width: 1390px) and (min-height: 790px) {
+    body {
+        background-color: rgb(32, 32, 32);
+    }
+}
+
+
+
+/* 1600x900, I never use this resolution but it's listed when I change res in Windows so ehhh */
+@media screen and (min-width: 1500px) and (min-height: 760px) {
+    body {
+        background-color: rgb(226, 155, 155);
+    }
+}
+
+
+
+/* Sweet 1080p a perfectly fine resolution, if we stop progressing this would be fine stopping point.*/
+@media screen and (min-width: 1870px) and (min-height: 900px) {
+    body {
+        background-color: rgb(155, 132, 132);
+    }
+}
+
+
+
+/*         */
