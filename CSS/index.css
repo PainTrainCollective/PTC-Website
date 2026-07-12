@@ -1,8 +1,8 @@
-
-/* If the background is red something failed and the site might not display right */
+/* If the background is purple something failed and the site might not display right */
 body {
-    background-color: red;
+    background-color: rgb(225, 0, 255);
 }
+
 
 /* These should capture all 16:9 resolutions, starting from 1024x576 to 3840 × 2160(4k) if anyone is using anything higher then 4k then well, idk*/
 /* Also note that these are not exact resolutions for example 720p is "1200x 600" this to give breathing room for browser elements
@@ -10,59 +10,92 @@ body {
 /* As of now I've only set background collours for debug reasons*/
 
 
+/* Current ToDo
+
+        Fix phone res looking bad
+
+
+*/
+
+
+
 
 /* "1024x576" If you are on desktop and this is your resolution, bro. */
-@media screen and (min-width: 990px) and (min-height: 540px) {
+@media screen and (max-width: 1064px) and (max-height: 610px) {
     body {
-        background-color: rgb(61, 46, 46);
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
     }
 }
 
 
 
 /* 720p, we all gotta start somewhere and this ain't too bad. You'll eventually get use to it */
-@media screen and (min-width: 1200px) and (min-height: 600px) {
+@media screen and (max-width: 1320px) and (max-height: 760px) {
     body {
-        background-color: rgb(141, 0, 0);
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
     }   
 }
 
 
 
 /* "1360p" as I call it, a fair bit better then 720p but not quite 1080p but it's the resolution I game at (due to weak hardware) */
-@media screen and (min-width: 1300px) and (min-height: 650px) {
+@media screen and (max-width: 1400px) and (max-height: 768px) {
     body {
-        background-color: rgb(41, 0, 0);
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
     }
 }
 
 
 
-/* 1400x900, I never use this resolution but it's listed when I change res in Windows so ehhh*/
-@media screen and (min-width: 1390px) and (min-height: 790px) {
+/* 1400x900, I never use this resolution but it's listed when I change res in Windows so ehhh. */
+@media screen and (max-width: 1440px) and (max-height: 940px) {
     body {
-        background-color: rgb(32, 32, 32);
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
     }
 }
 
 
 
 /* 1600x900, I never use this resolution but it's listed when I change res in Windows so ehhh */
-@media screen and (min-width: 1500px) and (min-height: 760px) {
+@media screen and (max-width: 1640px) and (max-height: 940px) {
     body {
-        background-color: rgb(226, 155, 155);
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
     }
 }
 
 
 
-/* Sweet 1080p a perfectly fine resolution, if we stop progressing this would be fine stopping point.*/
-@media screen and (min-width: 1870px) and (min-height: 900px) {
+/* Sweet 1080p a perfectly fine resolution, if we stop progressing this would be fine stopping point. */
+@media screen and (max-width: 1960px) and (max-height: 1120px) {
     body {
-        background-color: rgb(155, 132, 132);
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
     }
 }
 
 
+
+/* 1440p, higher is better. I've thus far never used this resolution before. */
+@media screen and (max-width: 2600px) and (max-height: 1480px) {
+    body {
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
+    }
+}
+
+
+
+/* Crisp 4k, or so I'm told. Would like to see what an OLED 4k Display looks like. But I doubt I ever will. */
+@media screen and (max-width: 3900px) and (max-height: 2200px) {
+    body {
+        background-image: url('../IMAGES/IndexBackground.png');
+        background-size: cover;
+    }
+}
 
 /*         */
