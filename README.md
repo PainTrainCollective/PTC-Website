@@ -7,3 +7,5 @@ This is very basic site made using pure HTML, JavaScript, and CSS, with little t
 We also try not to use AI for anything at all, but there is a small chance that if we use something we didn't make it might use AI.
 That is why we try to make everything ourselfs, for example not using code snippets, images, and (again) libraries among more things.
 
+In VERY ACTIVE DEVELOPMENT
+VERY BARE BONES
