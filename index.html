@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pain Train Collective Site</title>
+    <link rel="stylesheet" href="CSS/Fonts.css">
     <link rel="stylesheet" href="CSS/index.css">
     <script src="SCRIPTS/DEBUG_GET_RES.js" defer></script>
 </head>
 <body>
-    <!-- ToDo
-            
-         Use JavaScript to allow the browser to easliy pick a CSS file for the document,
-         if the user has JavaScript disabled us <noscript> to assign a master CSS file.
-         The reason for not using the master CSS file by default is that I plan on it having CSS
-         for every page so it will be massive. But still the site should be small enough to not really matter.
-         lastly telling the user they have script disabled.
-         
-         
-         -->
+    <!-- Holy Wooow, this was difficult to learn. The main problem was when clicking on a link it would redirect the Iframe
+         and not the whole tab. Leading to being able to create as many containers of the same page as you clicked. Also from what I gathered this is sin.-->
+    <iframe src="HTML/Navbar.html" style="border: none;" sandbox="allow-scripts allow-top-navigation-by-user-activation"></iframe>
 </body>
 </html>

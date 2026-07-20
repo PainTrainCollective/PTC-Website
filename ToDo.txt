@@ -1,0 +1,8 @@
+
+         Use JavaScript to allow the browser to easliy pick a CSS file for the document,
+         if the user has JavaScript disabled us <noscript> to assign a master CSS file.
+         The reason for not using the master CSS file by default is that I plan on it having CSS
+         for every page so it will be massive. But still the site should be small enough to not really matter.
+         lastly telling the user they have script disabled.
+
+
