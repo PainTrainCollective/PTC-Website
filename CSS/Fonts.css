@@ -1,4 +1,9 @@
 @font-face {
   font-family: LightSans; /* set name */
-  src: url(/Fonts/TypeLightSans.woff2); /* url of the font */
+  src: url(../Fonts/TypeLightSans.woff2); /* url of the font */
+}
+
+@font-face {
+  font-family: Njal; /* set name */
+  src: url(../Fonts/NjalBold-gx4E5.woff2); /* url of the font */
 }

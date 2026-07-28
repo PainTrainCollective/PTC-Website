@@ -6,11 +6,32 @@
     <title>Pain Train Collective Site</title>
     <link rel="stylesheet" href="CSS/Fonts.css">
     <link rel="stylesheet" href="CSS/index.css">
-    <script src="SCRIPTS/DEBUG_GET_RES.js" defer></script>
+    <script src="SCRIPTS/DEBUG_GET_RES.js"></script>
 </head>
 <body>
     <!-- Holy Wooow, this was difficult to learn. The main problem was when clicking on a link it would redirect the Iframe
          and not the whole tab. Leading to being able to create as many containers of the same page as you clicked. Also from what I gathered this is sin.-->
-    <iframe src="HTML/Navbar.html" style="border: none;" sandbox="allow-scripts allow-top-navigation-by-user-activation"></iframe>
+    <iframe src="HTML/Navbar.html"
+            scrolling="no"
+            style="position: fixed;
+            border-radius: 100vw;
+            width: 80vw;
+            height: 5vh;
+            top: 2vh;
+            left: 50vw;
+            transform: translateX(-50%);"
+            overflow: hidden;
+            sandbox="allow-scripts allow-top-navigation-by-user-activation">
+    </iframe>
+    <script>
+      console.log("Index.html - " + window.innerWidth + ", " + window.innerHeight);
+    </script>
+    
+
+    <h1 id="Welcome1" >Welcome to the</h1>
+    <img id="PTClogo" src="/Images/PainTrainLogo.png">
+    <h1 id="Welcome2" >Offical Site!</h1>
+    <p id="VisitText">Thanks for visiting, and we hope you have fun looking around.</p>
+
 </body>
 </html>
