@@ -26,8 +26,33 @@ footer {
 }
 /* Don't mess with the above */
 
+.Welcoming {
+    display: flex;
+    flex-direction: column;
+}
+.inner-welcoming {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.inner-welcoming h1 {
+    font-family: Njal;
+    color: white;
+}
 
+.inner-welcoming img {
+    height: 8vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Welcoming p {
+    font-family: Njal;
+    color: white;
+    align-self: center;
+}
 
 
 
@@ -62,7 +87,33 @@ footer {
         background-image: url('../IMAGES/BGs/600px.png');
         background-size: 100%;
     }
+    .Welcoming {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
 
+    .inner-welcoming {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inner-welcoming h1 {
+        font-family: njal;
+        color: white;
+        font-size: large;
+        align-self: center;
+    }
+    .inner-welcoming img {
+        height: 6vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .Welcoming p {
+        
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -1,18 +1,4 @@
-    nav {
-        display: flex;
-        height: 7vh;
-        min-height: 60px;
-        justify-content: flex-end;
-        align-content: center;
-        border-color: white;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 50px;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        margin-top: 2vh;
-        background-color: hsl(359, 23%, 47%, 50%);
-    }
+
     nav #Logo1 {
         display: none;
     }
