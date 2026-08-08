@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Credits</title>
     <link rel="stylesheet" href="../CSS/Fonts.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
     <link rel="stylesheet" href="../CSS/Credits.css">
     <script src="../SCRIPTS/DEBUG_GET_RES.js" defer></script>
 </head>
 <body>
-    <iframe src="../HTML/Navbar.html"
-            scrolling="no"
-            style="position: fixed;
-            border-radius: 100vw;
-            width: 80vw;
-            height: 5vh;
-            top: 2vh;
-            left: 50vw;
-            transform: translateX(-50%);"
-            overflow: hidden;
-            sandbox="allow-scripts allow-top-navigation-by-user-activation">
-    </iframe>
-    <h1>This is the Quote Book Page</h1>
+<nav>
+    <input type="checkbox" id="active-sidebar">
+    <label for="active-sidebar" class="Open-Nav">
+        <img src="../Images/Open.png">
+    </label>
+    <img id="Logo1" src="../Images/PainTrainLogo.png">
+    
+    <!--Links Container-->
+    <div class="Links-List">
+        <label for="active-sidebar" class="Close-Nav">
+            <img src="../Images/Close.png" width="32px" height="32px">
+        </label>
+        <a class="Home" href="../index.html">Home</a>
+        <img id="Logo2" src="../Images/PainTrainLogo.png">
+        <a class="Crew" href="Crew.html">The Crew</a>
+        <a class="Projects" href="Projects.html">Projects</a>
+        <a class="News" href="News.html">News</a>
+        <a class="MCserver" href="MCserver.html">MC Server (closed)</a>
+        <a class="AboutUs" href="AboutUs.html">About Pain Train Collective</a>
+        <a class="Credits" href="Credits.html">Site credits</a>
+    </div>
+</nav>
 </body>
 </html>

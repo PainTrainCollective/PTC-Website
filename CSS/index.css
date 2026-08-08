@@ -1,126 +1,121 @@
-/* If the user sees this then some fixing is in order. UHG WHY */
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    /* If this gets displayed, something messed up. meaning more work  /:  ) */
+    background-image: url('../IMAGES/BGs/DisplayERROR.png');
+    background-size: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body {
-    background-image: url('../IMAGES/DisplayERROR.png');
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 15vh;
+}
+main {
+    flex: 1;
+}
+footer {
+    height: 50px;
+}
+/* Don't mess with the above */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    :root {
+        background-image: url('../IMAGES/BGs/600px.png');
+        background-size: 100%;
+    }
+
 }
 
-/* Sweet 1080p a perfectly fine resolution, if we stop progressing, this would be fine stopping point. */
-@media screen and (min-width: 1744px) and (min-height: 981px) and (max-width: 2304px) and (max-height: 1296px)  {
-    body {
-        background-image: url('../IMAGES/TriedBG16.9.png');
-        background-size: cover;
-
-
-        #Welcome1 {
-            font-family: Njal;
-            font-size: xx-large;
-            color: white;
-            position: fixed;
-            top: 10vh;
-            left: 30vw;
-            transform: translateX(-50%);
-        }
-
-        #PTClogo {
-            position: fixed;
-            width: 25%;
-            top: 8vh;
-            left: 50vw;
-            transform: translateX(-50%);
-
-        }
-
-        #Welcome2 {
-            font-family: Njal;
-            font-size: xx-large;
-            color: white;
-            position: fixed;
-            top: 9.36vh;
-            left: 68vw;
-            transform: translateX(-50%);
-        }
-
-        #VisitText {
-            font-family: Njal;
-            font-size: x-large;
-            color: white;
-            position: fixed;
-            top: 20vh;
-            left: 50vw;
-            transform: translateX(-50%);
-        }
-
-        #MoTM-image {
-            border-radius: 5vh;
-            border-color: rgb(255, 145, 0);
-            border-style: solid;
-            position: fixed;
-            top: 10vh;
-            left: 75vw;
-            width: 35vh;
-        }
-        
-        #MoTM-message {
-            font-family: Njal;
-            color: white;
-            text-align: center;
-            position: fixed;
-            top: 77vh;
-            left: 76vw;
-            width: 35vh;
-        }
-        
-        #MoTM-Audio-Message {
-            position: fixed;
-            top: 87vh;
-            left: 76vw;
-            width: 35vh;
-        }
-        
-        #MoTM-previous {
-            font-family: Njal;
-            font-size: xx-large;
-            text-align: center;
-            color: white;
-            position: fixed;
-            top: 93vh;
-            left: 76vw;
-            width: 35vh;
-        }
-
-        #Quotes-Message {
-            font-family: Njal;
-            font-size: xx-large;
-            color: rgb(81, 123, 202);
-            position: fixed;
-            top: 35vh;
-            left: 50vw;
-            transform: translateX(-50%);
-        }
-
-        #Quote-Gif {
-            width: 40vw;
-            position: fixed;
-            top: 40vh;
-            left: 50vw;
-            transform: translateX(-50%);
-        }
-
-        #QuoteBook {
-            font-family: Njal;
-            font-size: xx-large;
-            color: rgb(81, 123, 202);
-            position: fixed;
-            top: 75vh;
-            left: 50vw;
-            transform: translateX(-50%);
-        }
-
-
-
-
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    :root {
+        background-image: url('../IMAGES/BGs/600pxUP.png');
+        background-size: 100%;
     }
 }
 
-/*   
-     */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    :root {
+        background-image: url('../IMAGES/BGs/768px.png');
+        background-size: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    :root {
+        background-image: url('../IMAGES/BGs/992px.png');
+        background-size: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    :root {
+        background-image: url('../IMAGES/BGs/1200px.png');
+        background-size: 100%;
+    }
+
+}
+
+/* For 1920x1080p displays) */
+@media only screen and (min-width: 1900px) {
+    :root {
+        background-image: url('../IMAGES/BGs/1900px.png');
+        background-size: 100%;
+    }
+
+}
+
+
+
+/* Hopefully this goes used 
+@media only screen and (min-width: 1300px) {
+
+}
+
+@media only screen and (min-width: 1560px) {
+
+}
+*/
+
