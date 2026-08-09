@@ -1,0 +1,1 @@
+console.log("Index.html - " + window.innerWidth + ", " + window.innerHeight);
