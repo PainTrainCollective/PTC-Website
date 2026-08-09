@@ -54,9 +54,15 @@ footer {
     align-self: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 136, 0, 0.718);
+}
 
-
-
+footer .Site-version {
+    margin-right: auto;
+}
 
 
 
@@ -110,6 +116,10 @@ footer {
         height: 6vh;
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+
+    footer h1 {
+        font-size: small;
     }
 }
 
