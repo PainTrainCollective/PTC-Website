@@ -2,6 +2,7 @@
 @media only screen and (max-width: 600px) {
     :root {
         background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-repeat: round;
         background-size: 100%;
     }
     .Welcoming {
@@ -68,13 +69,82 @@
     }
 
     .TheMeat .Quotes {
+        display: flex;
+        flex-direction: column;
+        background-image: url('./../Images/TempQuotesFinal.gif');
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position: center;
         order: 3;
         flex: 1;
     }
 
+    .Quotes h1 {
+        font-size: x-large;
+        font-family: Njal;
+        align-self: center;
+        text-decoration: underline;
+    }
+
+    .Quotes span {
+        display: none;
+    }
+
+    .Quotes a {
+        font-size: x-large;
+        margin-top: auto;
+        margin-bottom: 5px;
+        font-family: Njal;
+        align-self: center;
+        color: aqua;
+        text-decoration: none;
+    }
+
     .TheMeat .MoTM {
+        display: flex;
+        flex-direction: row;
+        
         order: 2;
         flex: 2;
+    }
+
+    .MoTM img {
+        display: flex;
+        align-self: center;
+        border-style: solid;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: orange;
+        height: 30vh;
+    }
+
+    .MoTM-Inner {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        border-style: solid;
+        border-radius: 10%;
+        border-width: 1px;
+        border-color: rgb(1, 133, 249);
+    }
+
+    .MoTM-audio {
+        display: flex;
+        align-self: center;
+        width: 250px;
+        margin-top: auto;
+    }
+
+    .MoTM h1 {
+        font-family: Njal;
+        font-size: larger;
+        align-self: center;
+        margin-top: 5px;
+        background-color: rgba(60, 60, 60, 0);
+    }
+
+    .MoTM .MoTM-text {
+        color: orange;
     }
 
     footer h1 {
@@ -184,20 +254,63 @@
 
 
 
-/*
- Small devices (portrait tablets and large phones, 600px and up) 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     :root {
         background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-repeat: round;
         background-size: 100%;
     }
 }
 
- Medium devices (landscape tablets, 768px and up) 
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     :root {
         background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-repeat: round;
         background-size: 100%;
     }
 }
-*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
+        background-repeat: round;
+        background-size: 100%;
+    }
+}
+
+/* For Ipad fix */
+@media only screen and (min-width: 1024px) and (max-width: 1124px) and (min-height: 1300px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-repeat: round;
+        background-size: 100%;
+    }
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
+        background-repeat: round;
+        background-size: 100%;
+    }
+
+}
+
+/* For 1920x1080p displays) */
+@media only screen and (min-width: 1900px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
+        background-repeat: round;
+        background-size: 100%;
+    }
+
+}

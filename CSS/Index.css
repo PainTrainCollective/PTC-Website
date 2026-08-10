@@ -66,17 +66,23 @@ footer {
 .TheMeat {
     display: flex;
     flex-direction: row;
+/*
     border-style: solid;
     border-color: white;
     border-width: 1px;
+*/
     color: white;
 }
 
 .TheMeat .Socials {
     flex: 1;
+
+/*
     border-style: solid;
     border-color: rgb(76, 0, 255);
     border-width: 1px;
+*/
+
     font-family: Njal;
     font-size: xx-large;
 }
@@ -85,6 +91,10 @@ footer {
     margin-left: 50px;
     font-family: Njal;
     font-size: xx-large;
+}
+
+.Socials h1 {
+    text-decoration: underline;
 }
 
 .Desktop-Socials a {
@@ -107,19 +117,79 @@ footer {
 }
 
 .TheMeat .Quotes {
+    background-image: url('./../Images/TempQuotesFinal.gif');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 2;
+
+/*
     border-style: solid;
     border-color: rgb(0, 221, 255);
     border-width: 1px;
+*/
+
+}
+
+.Quotes h1 {
+    align-self: center;
+    font-family: Njal;
+    text-decoration: underline;
+}
+
+.Quotes span {
+    height: 32vh;
+}
+
+.Quotes a {
+    align-self: center;
+    font-family: Njal;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.Quotes a:hover {
+    color: white;
 }
 
 .TheMeat .MoTM {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+
+/*
     border-style: solid;
     border-color: rgb(0, 255, 34);
     border-width: 1px;
+*/
 }
 
+.MoTM img {
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 2px;
+    border-color: orange;
+}
+
+.MoTM .MoTM-Inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: Njal;
+}
+
+.MoTM-Inner h1 {
+    background-color: rgba(60, 60, 60, 0.53);
+}
 
 
 
@@ -163,31 +233,7 @@ footer h1 {
 
 
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    :root {
-        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
-        background-size: 100%;
-    }
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    :root {
-        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
-        background-size: 100%;
-    }
-
-}
-
-/* For 1920x1080p displays) */
-@media only screen and (min-width: 1900px) {
-    :root {
-        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
-        background-size: 100%;
-    }
-
-}
 
 
 
