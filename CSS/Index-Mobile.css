@@ -1,0 +1,203 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-size: 100%;
+    }
+    .Welcoming {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .inner-welcoming {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inner-welcoming h1 {
+        font-family: njal;
+        color: white;
+        font-size: large;
+        align-self: center;
+    }
+    .inner-welcoming img {
+        height: 6vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    main {
+        height: 300vw;
+    }
+
+    .TheMeat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Socials .Desktop-Socials {
+        display: none;
+    }
+
+    .Socials .Mobile-Socials-Outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .Mobile-Socials-Outer h1 {
+        text-decoration: underline;
+        font-size: x-large;
+    }
+
+    .Socials .Mobile-Socials-Inner {
+        display: flex;
+        margin-top: 15px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Mobile-Socials-Inner a {
+        color: cyan;
+        text-decoration: none;
+        font-size: large;
+    }
+
+    .TheMeat .Quotes {
+        order: 3;
+        flex: 1;
+    }
+
+    .TheMeat .MoTM {
+        order: 2;
+        flex: 2;
+    }
+
+    footer h1 {
+        display: flex;
+        font-size: xx-small;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-size: 100%;
+    }
+}
+
+ Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+    :root {
+        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
+        background-size: 100%;
+    }
+}
+*/

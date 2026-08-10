@@ -1,3 +1,4 @@
+/* Stuff to make other stuff work right */
 *{
     padding: 0;
     margin: 0;
@@ -19,13 +20,18 @@ header {
     height: 15vh;
 }
 main {
+    display: flex;
     flex: 1;
+    flex-wrap: nowrap;
 }
 footer {
-    height: 50px;
+    height: 20px;
 }
 /* Don't mess with the above */
 
+
+
+/* The top part of the site */
 .Welcoming {
     display: flex;
     flex-direction: column;
@@ -54,9 +60,74 @@ footer {
     align-self: center;
 }
 
+
+
+/* The middle part of the site */
+.TheMeat {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+.TheMeat .Socials {
+    flex: 1;
+    border-style: solid;
+    border-color: rgb(76, 0, 255);
+    border-width: 1px;
+    font-family: Njal;
+    font-size: xx-large;
+}
+
+.Socials .Desktop-Socials {
+    margin-left: 50px;
+    font-family: Njal;
+    font-size: xx-large;
+}
+
+.Desktop-Socials a {
+    color: red;
+    text-decoration: none;
+}
+
+.Desktop-Socials a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 1458px) {
+    .Socials .Desktop-Socials {
+        font-size: large;
+    }
+}
+
+.Socials .Mobile-Socials-Outer {
+    display: none;
+}
+
+.TheMeat .Quotes {
+    flex: 2;
+    border-style: solid;
+    border-color: rgb(0, 221, 255);
+    border-width: 1px;
+}
+
+.TheMeat .MoTM {
+    flex: 1;
+    border-style: solid;
+    border-color: rgb(0, 255, 34);
+    border-width: 1px;
+}
+
+
+
+
+/* The bottom part of the site */
 footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: rgba(255, 136, 0, 0.718);
 }
 
@@ -64,85 +135,38 @@ footer .Site-version {
     margin-right: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    :root {
-        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
-        background-size: 100%;
-    }
-    .Welcoming {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    .inner-welcoming {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .inner-welcoming h1 {
-        font-family: njal;
-        color: white;
-        font-size: large;
-        align-self: center;
-    }
-    .inner-welcoming img {
-        height: 6vh;
-        padding-left: 2vw;
-        padding-right: 2vw;
-    }
-
-    footer h1 {
-        font-size: small;
-    }
+footer h1 {
+    font-size: small;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    :root {
-        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
-        background-size: 100%;
-    }
-}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    :root {
-        background-image: url('./../Images/Backgrounds/TriedBG9.16.png');
-        background-size: 100%;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     :root {
-        background-image: url('./../Images/Backgrounds/Background.jpg');
+        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
         background-size: 100%;
     }
 }
@@ -150,7 +174,7 @@ footer .Site-version {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     :root {
-        background-image: url('./../Images/Backgrounds/Background.jpg');
+        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
         background-size: 100%;
     }
 
@@ -159,7 +183,7 @@ footer .Site-version {
 /* For 1920x1080p displays) */
 @media only screen and (min-width: 1900px) {
     :root {
-        background-image: url('./../Images/Backgrounds/Background.jpg');
+        background-image: url('./../Images/Backgrounds/Background-blured.jpg');
         background-size: 100%;
     }
 
